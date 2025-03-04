@@ -118,7 +118,7 @@ function inputEquals() {
         secondOperand = displayValue;
         result = operate(Number(firstOperand), Number(secondOperand), firstOperator);
         if(result === 'lmao') {
-            displayValue = 'lmao';
+            displayValue = 'hai chaca';
         } else {
             displayValue = roundAccurately(result, 15).toString();
             firstOperand = displayValue;
